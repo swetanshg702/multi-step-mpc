@@ -41,7 +41,6 @@ function compute_reachability_index(
         if rank(Bl) >= n
             Anu = A^nu
             d   = (I(n) - Anu) * xT
-            TODO
             if norm(Bl * (pinv(Bl) * d) - d) < tol
                 return nu
             end

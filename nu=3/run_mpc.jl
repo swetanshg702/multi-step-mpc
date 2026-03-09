@@ -39,7 +39,6 @@ function run_mpc()
     #  Step 2: Compute smoothed Uref ONCE (offline)
     #          This prints the full pipeline breakdown
     # ----------------------------------------------------------
-    TODO
     smooth = compute_Uref_smoothed(A, B, XT, nu_min)
     Uref   = smooth.Uref
 
