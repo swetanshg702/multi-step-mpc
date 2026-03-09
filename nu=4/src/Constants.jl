@@ -7,10 +7,10 @@ export X0, XT, N, max_micro_steps, html_filename, json_filename,
 
 
 const X0 = [1.0; 0.5]
-const XT = [0.5; 1.0]
+const XT = [-0.5; 2.0]
 
 const N = 20
-const max_micro_steps = 201
+const max_micro_steps = 200
 const html_filename = "nu=4.html"
 const json_filename  = "nu=4_results.json"
 
